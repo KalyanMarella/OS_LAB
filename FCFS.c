@@ -3,7 +3,6 @@ struct process
 {
 	int at,bt,ct,tat,wt,c;
 };
-
 int findprocess(struct process* p,int n,int t)
 {
 	int min=99999,index=-1;
@@ -21,7 +20,7 @@ int findprocess(struct process* p,int n,int t)
 	return index;
 }
 	
-main()
+int main()
 {
 	int n,t=0,ct=0,k=0, index;
 	printf("enter nuber of precosses");
